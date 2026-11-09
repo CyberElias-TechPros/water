@@ -1088,6 +1088,9 @@ ol {
   z-index: 0;
   width: 100%;
   height: 100%;
+  background:
+    radial-gradient(110% 90% at 72% 32%, #0a3d4c 0%, rgba(10, 61, 76, 0) 60%),
+    linear-gradient(180deg, #041b26 0%, #03141d 70%);
 }
 
 .hero__canvas canvas {

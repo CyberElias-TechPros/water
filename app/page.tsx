@@ -91,7 +91,7 @@ export default function HomePage() {
                 </text>
               </svg>
               <div className="intro__seal-center">
-                12<span>Years</span>
+                14<span>Years</span>
               </div>
             </div>
           </Reveal>
@@ -107,7 +107,7 @@ export default function HomePage() {
             </Reveal>
             <Reveal delay={120}>
               <p className="lead">
-                We started in 2012 with one borehole, one purification line and forty cases a week. Twelve years later
+                We started in 2012 with one borehole, one purification line and forty cases a week. Fourteen years later
                 the mission has not moved: make water so consistently good that nobody has to think about it.
               </p>
             </Reveal>

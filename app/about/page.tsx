@@ -53,7 +53,7 @@ export default function AboutPage() {
             </p>
             <p className="lead">
               We started in 2012 when our founder, tired of inconsistent supply at his family&apos;s restaurant, bought a
-              single purification line in Ogun State. Twelve years later the plant has two lines, an in-house laboratory
+              single purification line in Ogun State. Fourteen years later the plant has two lines, an in-house laboratory
               and a route team that delivers to more than 480 businesses — but the standard has not moved.
             </p>
             <div className="intro__points" style={{ marginTop: 26 }}>
@@ -108,7 +108,7 @@ export default function AboutPage() {
             <div className="section-head__main">
               <span className="eyebrow">The timeline</span>
               <h2 className="h2">
-                Twelve years,
+                Fourteen years,
                 <br />
                 <span className="accent-italic">six decisions.</span>
               </h2>
