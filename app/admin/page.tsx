@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function AdminPage() {
   return (
-    <section style={{ paddingTop: "calc(var(--header-h) + clamp(28px, 4vw, 46px))", paddingBottom: "clamp(40px, 6vw, 70px)" }}>
+    <section style={{ paddingTop: "calc(var(--header-h) + clamp(48px, 5vw, 64px))", paddingBottom: "clamp(40px, 6vw, 70px)" }}>
       <div className="container">
         <AdminDashboard />
       </div>

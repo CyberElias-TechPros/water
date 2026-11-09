@@ -57,7 +57,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
   return (
     <>
-      <section className="section" style={{ paddingTop: "calc(var(--header-h) + clamp(28px, 4vw, 46px))" }}>
+      <section className="section" style={{ paddingTop: "calc(var(--header-h) + clamp(52px, 6vw, 78px))" }}>
         <div className="container">
           <nav className="breadcrumbs" aria-label="Breadcrumb" style={{ color: "var(--ink-mute)", marginBottom: 22 }}>
             <Link href="/">Home</Link>

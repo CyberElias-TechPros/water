@@ -25,7 +25,7 @@ export default function NotFound() {
               Back home <ArrowRight size={16} className="arrow" />
             </span>
           </Link>
-          <Link href="/products" className="btn btn--ghost">
+          <Link href="/products" className="btn btn--ghost-light">
             <span>Browse our water</span>
           </Link>
         </div>

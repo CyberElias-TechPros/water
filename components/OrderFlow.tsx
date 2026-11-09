@@ -141,7 +141,7 @@ export default function OrderFlow() {
       setPlacing(false);
       setStep(4);
       toast("Order received", "success", `Reference ${created.ref}. We will call to confirm.`);
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.dispatchEvent(new Event("aquaris:scroll-top"));
     }, 1100);
   };
 

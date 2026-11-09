@@ -19,6 +19,16 @@ export default function Ambient() {
   const glowRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const onScrollTop = () => {
+      const instance = lenisRef.current;
+      if (instance) instance.scrollTo(0);
+      else window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+    window.addEventListener("aquaris:scroll-top", onScrollTop as EventListener);
+    return () => window.removeEventListener("aquaris:scroll-top", onScrollTop as EventListener);
+  }, []);
+
+  useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     let frame = 0;
     let cancelled = false;

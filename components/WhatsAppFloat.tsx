@@ -21,7 +21,7 @@ export default function WhatsAppFloat() {
         className="float-btn float-btn--top"
         data-visible={showTop}
         aria-label="Back to top"
-        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        onClick={() => window.dispatchEvent(new Event("aquaris:scroll-top"))}
       >
         <ArrowUp size={18} />
       </button>

@@ -9,6 +9,9 @@ export default function Footer() {
   return (
     <footer className="site-footer">
       <div className="site-footer__glow" aria-hidden />
+      <div className="site-footer__watermark" aria-hidden>
+        AQUARIS
+      </div>
       <div className="container">
         <div className="site-footer__top">
           <div>
