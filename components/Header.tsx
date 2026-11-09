@@ -87,12 +87,15 @@ export default function Header() {
               <span className="status-dot" aria-hidden />
               <span>{announceMessages[announceIndex % announceMessages.length]}</span>
             </p>
-            <div className="announce__dots" aria-hidden>
+            <div className="announce__dots" role="group" aria-label="Announcements">
               {announceMessages.map((message, index) => (
-                <span
+                <button
+                  type="button"
                   className="announce__dot"
                   data-active={index === announceIndex % announceMessages.length}
                   key={message}
+                  aria-label={`Show announcement ${index + 1}: ${message}`}
+                  onClick={() => setAnnounceIndex(index)}
                 />
               ))}
             </div>

@@ -48,6 +48,17 @@ export default function TestimonialSlider() {
       role="region"
       aria-roledescription="carousel"
       aria-label="Customer testimonials"
+      tabIndex={0}
+      onKeyDown={(event) => {
+        if (event.key === "ArrowRight") {
+          event.preventDefault();
+          go(index + 1);
+        }
+        if (event.key === "ArrowLeft") {
+          event.preventDefault();
+          go(index - 1);
+        }
+      }}
     >
       <div className="testimonial__viewport">
         <div

@@ -7540,3 +7540,13 @@ ol {
   position: relative;
   z-index: 1;
 }
+
+.announce__dot {
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.announce__dot:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
